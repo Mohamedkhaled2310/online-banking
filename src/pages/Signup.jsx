@@ -23,7 +23,7 @@ const Signup = () => {
 
       const data = await response.json();
 
-      if (data.message === "تم التسجيل بنجاح") {
+      if (data.statusCode === 201) {
         toast.success("Signup successful!");
         navigate("/login");
       } else {

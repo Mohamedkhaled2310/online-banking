@@ -24,7 +24,7 @@ const Login = () => {
 
       const data = await response.json();
 
-      if (data.message === "تم تسجيل الدخول بنجاح") {
+      if (data.statusCode === 200) {
         // Save token in cookies (expires in 7 days)
         Cookies.set("authToken", data.user.token, { expires: 7, secure: true, sameSite: "Strict" });
         console.log(data.token);
