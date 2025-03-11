@@ -1,0 +1,22 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: #ffffffde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-petrol {
+  background-color: #005f73 !important;
+  border-color: #004b5f !important;
+  color: white !important;
+}
+.color_petrol{
+  color: #004b5f !important;
+}
+.btn-petrol:hover {
+  background-color: #004b5f !important;
+  border-color: #003f4f !important;
+}
