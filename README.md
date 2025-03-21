@@ -1,12 +1,35 @@
-# React + Vite
+# Online Banking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The **Online Banking System** is a web application built with React that allows users to securely sign up, log in, transfer money, and manage their profile. It provides a seamless and responsive user experience with modern UI libraries and state management.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication**: Sign up and log in with secure authentication.
+- **Money Transfer**: Transfer funds to other accounts with ease.
+- **Profile Management**: Update user details and manage account settings.
+- **Real-time Notifications**: Get alerts for transactions using React Toastify.
+- **User-Friendly Interface**: Built with Bootstrap for responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React 19, React Router DOM 7
+- **UI Framework**: Bootstrap 5
+- **State Management**: React Hooks
+- **Cookies Management**: js-cookie
+- **Notifications**: react-toastify
+- **Development Tools**: Vite, ESLint
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/online-banking.git
+   cd online-banking
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open the app in your browser at `http://localhost:5173`
