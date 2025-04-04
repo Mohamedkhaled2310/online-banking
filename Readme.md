@@ -1,4 +1,4 @@
-# *Banking System API* 🏦💻
+# *Banking System* 🏦💻
 
 ![Banner](./public/banner.png)
 
